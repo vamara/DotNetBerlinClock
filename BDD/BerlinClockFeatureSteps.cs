@@ -1,7 +1,6 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
 using TechTalk.SpecFlow;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Linq;
 
 namespace BerlinClock
 {
@@ -23,6 +22,5 @@ namespace BerlinClock
         {
             Assert.AreEqual(berlinClock.convertTime(theTime), theExpectedBerlinClockOutput);
         }
-
     }
 }
